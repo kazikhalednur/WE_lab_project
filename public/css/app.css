@@ -1,0 +1,870 @@
+/* ===== GLOBAL STYLE (ALL PAGES) ===== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
+}
+
+/* ===== NAVBAR (ALL PAGES) ===== */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+color:#0aa;
+}
+
+.menu{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+.menu a{
+text-decoration:none;
+color:#333;
+}
+
+.nav-btn{
+padding:8px 18px;
+background:#0aa;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+/* ===== HERO SECTION (HOME PAGE) ===== */
+
+.hero{
+height:70vh;
+background:url("https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero-btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#0aa;
+color:white;
+text-decoration:none;
+}
+
+/* ===== SUCCESSFUL EVENTS SECTION (HOME PAGE) ===== */
+
+.success{
+padding:70px 10%;
+text-align:center;
+background:#f5f7fb;
+}
+
+.success-container{
+display:flex;
+gap:25px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.success-card{
+background:white;
+width:280px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+overflow:hidden;
+transition:0.3s;
+}
+
+.success-card:hover{
+transform:translateY(-8px);
+}
+
+.success-card img{
+width:100%;
+}
+
+.success-card h3{
+margin:10px;
+}
+
+.success-card p{
+margin:10px;
+}
+
+/* ===== ORGANIZERS SECTION (HOME PAGE) ===== */
+
+.organizers{
+padding:70px 10%;
+text-align:center;
+background:#ffffff;
+}
+
+.organizer-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.organizer-card{
+background:#f5f7fb;
+width:220px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.organizer-card img{
+width:100px;
+height:100px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+/* ===== EVENTS SECTION (HOME PAGE + EVENTS PAGE) ===== */
+
+.events{
+padding:70px 10%;
+text-align:center;
+}
+
+.event-container{
+display:flex;
+gap:25px;
+justify-content:center;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:280px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+overflow:hidden;
+}
+
+.card img{
+width:100%;
+}
+
+.card h3{
+margin:10px;
+}
+
+.card p{
+margin:5px 10px;
+}
+
+.price{
+color:#0aa;
+font-weight:600;
+}
+
+.book-btn{
+margin:15px;
+padding:10px 20px;
+background:#0aa;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+.book-cta{
+margin:15px;
+padding:10px 20px;
+background:rgb(69, 71, 71);
+border:none;
+color:white;
+cursor:pointer;
+}
+
+/* ===== UPCOMING EVENTS SECTION (HOME PAGE) ===== */
+
+.upcoming{
+padding:70px 10%;
+background:#111;
+color:white;
+text-align:center;
+}
+
+.upcoming-container{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.upcoming-card{
+background:white;
+color:#333;
+width:280px;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.upcoming-card:hover{
+transform:translateY(-8px);
+}
+
+.upcoming-card img{
+width:100%;
+}
+
+.upcoming-card h3{
+margin:10px;
+}
+
+.upcoming-card p{
+margin:5px 10px;
+}
+
+/* ===== FAQ SECTION (HOME PAGE) ===== */
+
+body{
+font-family: Arial;
+background:#f4f4f4;
+margin:0;
+padding:0;
+}
+
+.faq-section{
+width:60%;
+margin:50px auto;
+}
+
+.faq-section h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.faq-item{
+margin-bottom:10px;
+border-radius:5px;
+overflow:hidden;
+}
+
+.faq-question{
+width:100%;
+padding:15px;
+border:none;
+background:#fff;
+cursor:pointer;
+font-size:16px;
+text-align:left;
+transition:0.3s;
+}
+
+.faq-question:hover{
+background:#ffd43b;
+}
+
+.faq-question.active{
+background:#ffd43b;
+}
+
+.faq-answer{
+display:none;
+background:#fff;
+padding:15px;
+border-top:1px solid #ddd;
+}
+
+/* ===== CTA SECTION (HOME PAGE) ===== */
+
+.cta{
+padding:80px 10%;
+text-align:center;
+background:#0aa;
+color:white;
+}
+
+.cta-btn{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+background:white;
+color:#0aa;
+cursor:pointer;
+}
+
+/* ===== FOOTER (ALL PAGES) ===== */
+
+footer{
+background:#111;
+color:white;
+padding:40px 10%;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.footer-col{
+max-width:250px;
+}
+
+.copyright{
+text-align:center;
+margin-top:20px;
+}
+
+/* ===== EVENTS PAGE ===== */
+
+.events-page{
+padding:80px 10%;
+text-align:center;
+}
+
+.pagination{
+margin-top:40px;
+}
+
+.pagination a{
+padding:10px 15px;
+background:#eee;
+margin:5px;
+text-decoration:none;
+}
+
+.pagination .active{
+background:#0aa;
+color:white;
+}
+
+/* ===== BOOKING PAGE ===== */
+
+.booking-section{
+padding:80px 10%;
+text-align:center;
+}
+
+.booking-form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:30px;
+}
+
+.booking-form input,
+.booking-form select{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.submit-btn{
+padding:12px;
+background:#0aa;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+#successMsg{
+margin-top:10px;
+color:green;
+font-weight:bold;
+}
+
+/* ===== ABOUT PAGE ===== */
+
+.about-hero{
+height:50vh;
+background:url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.about-hero h1{
+font-size:50px;
+}
+
+/* ===== ABOUT INFO SECTION ===== */
+
+.about-info{
+padding:80px 10%;
+}
+
+.about-container{
+display:flex;
+align-items:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.about-text{
+flex:1;
+}
+
+.about-image img{
+width:100%;
+border-radius:10px;
+}
+
+/* ===== VIDEO SECTION (ABOUT PAGE) ===== */
+
+.about-video{
+background:#f5f7fb;
+padding:80px 10%;
+text-align:center;
+}
+
+.video-container{
+margin-top:30px;
+display:flex;
+justify-content:center;
+}
+
+/* ===== TEAM SECTION (ABOUT PAGE) ===== */
+
+.team{
+padding:80px 10%;
+text-align:center;
+}
+
+.team-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.team-card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+width:220px;
+}
+
+.team-card img{
+width:100px;
+height:100px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+/* ===== CONTACT PAGE ===== */
+
+.contact-hero{
+height:40vh;
+background:url("https://images.unsplash.com/photo-1511578314322-379afb476865") center/cover;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.contact-hero h1{
+font-size:45px;
+}
+
+/* ===== CONTACT FORM SECTION ===== */
+
+.contact-section{
+padding:80px 10%;
+}
+
+.contact-container{
+display:flex;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.contact-form{
+flex:1;
+}
+
+.contact-form form{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.contact-info{
+flex:1;
+background:#f5f7fb;
+padding:20px;
+border-radius:10px;
+}
+
+/* ===== GOOGLE MAP SECTION ===== */
+
+.map-section{
+padding:80px 10%;
+text-align:center;
+}
+
+.map-container iframe{
+width:100%;
+height:400px;
+border-radius:10px;
+}
+
+/* ===== PAYMENT SECTION (BOOKING PAGE) ===== */
+
+.payment-section{
+margin-top:25px;
+}
+
+.payment-methods{
+display:flex;
+gap:15px;
+margin-top:15px;
+flex-wrap:wrap;
+}
+
+.payment-card{
+border:2px solid #ddd;
+border-radius:10px;
+padding:15px;
+width:120px;
+text-align:center;
+cursor:pointer;
+transition:0.3s;
+background:white;
+}
+
+.payment-card img{
+width:50px;
+margin-bottom:5px;
+}
+
+.payment-card input{
+display:none;
+}
+
+.payment-card:hover{
+border-color:#0aa;
+transform:translateY(-3px);
+}
+
+.payment-card input:checked + img{
+outline:3px solid #0aa;
+border-radius:5px;
+}
+
+/* ===== LOGIN PAGE ===== */
+
+.login-section{
+height:70vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#f5f7fb;
+}
+
+.login-card{
+background:white;
+padding:40px;
+width:350px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.login-card h2{
+margin-bottom:20px;
+}
+
+.login-card input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.login-btn{
+width:100%;
+padding:12px;
+background:#0aa;
+color:white;
+border:none;
+cursor:pointer;
+margin-top:10px;
+}
+
+.register-text{
+margin-top:15px;
+}
+
+.register-text a{
+color:#0aa;
+text-decoration:none;
+}
+
+#loginSuccess{
+margin-top:10px;
+color:green;
+font-weight:bold;
+}
+/* =====================================
+   GATEKEEPER ADDITIONS
+===================================== */
+
+/* Flash messages */
+.flash{
+margin:20px 10%;
+padding:14px 20px;
+border-radius:8px;
+}
+.flash-success{background:#d4edda;color:#155724;border:1px solid #c3e6cb;}
+.flash-error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb;}
+
+/* Generic container */
+.container{
+max-width:1200px;
+margin:0 auto;
+padding:40px 20px;
+}
+
+/* Auth */
+.auth-link{
+color:#0aa;
+margin-left:8px;
+text-decoration:none;
+}
+.auth-error{
+color:#c00;
+font-size:13px;
+margin-top:4px;
+}
+
+/* Role badge */
+.role-badge{
+display:inline-block;
+padding:3px 10px;
+border-radius:12px;
+font-size:12px;
+font-weight:600;
+}
+.role-admin{background:#fff3cd;color:#856404;}
+.role-organizer{background:#cce5ff;color:#004085;}
+.role-attendee{background:#d4edda;color:#155724;}
+
+/* Status badge */
+.status-badge{
+display:inline-block;
+padding:3px 10px;
+border-radius:12px;
+font-size:12px;
+font-weight:600;
+}
+.status-paid,.status-published{background:#d4edda;color:#155724;}
+.status-pending,.status-draft{background:#fff3cd;color:#856404;}
+.status-used{background:#d1ecf1;color:#0c5460;}
+
+/* Stat card grid */
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+gap:18px;
+margin:25px 0;
+}
+.stat-card{
+background:white;
+padding:22px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+text-align:center;
+}
+.stat-card .value{
+font-size:32px;
+font-weight:700;
+color:#0aa;
+display:block;
+margin-bottom:4px;
+}
+.stat-card .label{
+font-size:13px;
+color:#666;
+text-transform:uppercase;
+}
+
+/* Tables */
+.table{
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+margin:20px 0;
+}
+.table th,.table td{
+padding:12px 16px;
+text-align:left;
+border-bottom:1px solid #eee;
+}
+.table th{
+background:#0aa;
+color:white;
+font-weight:600;
+}
+.table tr:last-child td{border-bottom:none;}
+.table tr:hover{background:#f9f9f9;}
+
+/* Buttons */
+.btn{
+display:inline-block;
+padding:8px 16px;
+background:#0aa;
+color:white;
+border:none;
+cursor:pointer;
+text-decoration:none;
+border-radius:5px;
+font-size:14px;
+}
+.btn-sm{padding:6px 12px;font-size:13px;}
+.btn-danger{background:#dc3545;}
+.btn-warn{background:#ffc107;color:#222;}
+.btn-secondary{background:#6c757d;}
+
+/* Forms */
+.form{
+max-width:600px;
+margin:20px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+.form .row{margin-bottom:15px;}
+.form label{
+display:block;
+margin-bottom:6px;
+font-weight:600;
+font-size:14px;
+}
+.form input,.form select,.form textarea{
+width:100%;
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+font-family:inherit;
+font-size:14px;
+}
+.form .err{color:#c00;font-size:12px;margin-top:4px;}
+
+/* Scanner */
+.scanner-wrap{
+max-width:520px;
+margin:30px auto;
+text-align:center;
+}
+#reader{margin:0 auto;}
+.scan-result{
+margin-top:20px;
+padding:20px;
+border-radius:10px;
+font-size:16px;
+min-height:80px;
+background:#f0f0f0;
+border:2px solid #ddd;
+}
+.scan-result.success{background:#d4edda;color:#155724;border-color:#28a745;}
+.scan-result.error{background:#f8d7da;color:#721c24;border-color:#dc3545;}
+.scan-result.warn{background:#fff3cd;color:#856404;border-color:#ffc107;}
+
+/* Pagination override */
+.pagination-wrap{margin-top:30px;text-align:center;}
+.pagination-wrap nav{display:inline-block;}
+.pagination-wrap span,.pagination-wrap a{
+display:inline-block;padding:8px 14px;margin:0 3px;
+background:#fff;border:1px solid #ddd;text-decoration:none;color:#0aa;
+border-radius:5px;
+}
+.pagination-wrap .active span,.pagination-wrap .current{
+background:#0aa;color:white;border-color:#0aa;
+}
+
+/* Detail header */
+.event-detail{
+background:white;border-radius:10px;overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);margin:20px 0;
+}
+.event-detail img{width:100%;max-height:400px;object-fit:cover;}
+.event-detail .body{padding:30px;}
+.event-detail h1{margin-bottom:10px;}
+.event-detail .meta{color:#666;margin-bottom:15px;}
+.event-detail .desc{line-height:1.7;margin-bottom:20px;}
+.cat-pick{
+display:flex;flex-wrap:wrap;gap:15px;margin-top:15px;
+}
+.cat-pick label{
+flex:1;min-width:180px;padding:15px;border:2px solid #ddd;
+border-radius:8px;cursor:pointer;background:white;
+}
+.cat-pick input{display:none;}
+.cat-pick input:checked+span{color:#0aa;font-weight:700;}
+.cat-pick label:has(input:checked){border-color:#0aa;background:#e6f9f9;}
+.cat-pick .price{font-size:18px;color:#0aa;font-weight:700;}
+.cat-pick .left{font-size:12px;color:#666;}
+
+/* Ticket card */
+.ticket-card{
+background:white;border-radius:10px;padding:20px;margin-bottom:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);display:flex;justify-content:space-between;
+align-items:center;flex-wrap:wrap;gap:15px;
+}
+.ticket-card .info h3{margin-bottom:6px;}
+.ticket-card .info p{color:#666;margin:2px 0;font-size:14px;}
+.ticket-card .code{font-family:monospace;background:#f0f0f0;padding:6px 10px;
+border-radius:4px;font-size:14px;}
+.ticket-card .actions{display:flex;gap:8px;flex-wrap:wrap;}
+
+/* Auth pages tweaks (Breeze) */
+.bg-gray-100{background:#f5f7fb!important;}
+
+/* Section page header */
+.page-head{
+padding:40px 10%;background:#0aa;color:white;text-align:center;
+}
+.page-head h1{margin-bottom:8px;}
